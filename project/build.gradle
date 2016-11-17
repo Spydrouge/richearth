@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 //-----------------------------------------------------------------
 //							PRIMARY RICHEARTH MOD INFO
 //-----------------------------------------------------------------
-version = getVersionFromJava(file("src/com/gamingimperatrix/richearth/lib/ModInfo.java")
+version = getVersionFromJava(file("src/main/java/com/gamingimperatrix/richearth/lib/ModInfo.java"))
 group= "com.gamingimperatrix.richearth" 
 archivesBaseName = "richearth"
 
@@ -74,16 +74,17 @@ dependencies {
 
 processResources
 {
+	println "Project.Version " + project.version
     // this will ensure that this task is redone when the versions change.
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
 
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
-        include 'mcmod.info'
+        include "mcmod.info"
                 
         // replace version and mcversion
-        expand 'version':project.version, 'mcversion':project.minecraft.version
+        expand "version": project.version, "mcversion": project.minecraft.version
     }
         
     // copy everything else, thats not the mcmod.info
@@ -95,26 +96,28 @@ processResources
 String getVersionFromJava(File file)
 {
 	//we aren't reading java at this point so we have to just read in the file and look for the line...
-	String searchPrefix = public static final String MOD_VERSION = \"";
+	String searchPrefix = "public static final String MOD_VERSION = \""
+	
+	String catchResult = "FAIL"
 	
 	//for each line
-	file.eachLine {
-		//nab the line 
-		String searcher -> 
-		searcher = searcher.trim();
+	file.eachLine { String s -> 
+		s = s.trim()
 		
 		//check for the prefix
-		if(searcher.startsWith(searchPrefix)){
+		if(s.startsWith(searchPrefix)){
+
 		
 			//chop off the prefix and the quotation mark and colon from the end (aka -2)
-			searcher = searcher.substring(searchPrefix.length(), searcher.length() - 2);
+			s = s.substring(searchPrefix.length(), s.length() - 2)
+
 			
 			//and return that plz
-			return searcher;
+			catchResult = s
 		}
 	} 
 	
-	//we failllledddd!
-	return "0";
+	return catchResult
+
 }
 	
