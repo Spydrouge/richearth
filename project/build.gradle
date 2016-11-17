@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 //-----------------------------------------------------------------
 //							PRIMARY RICHEARTH MOD INFO
 //-----------------------------------------------------------------
-version = "1.0.0"
+version = getVersionFromJava(file("src/com/gamingimperatrix/richearth/lib/ModInfo.java")
 group= "com.gamingimperatrix.richearth" 
 archivesBaseName = "richearth"
 
