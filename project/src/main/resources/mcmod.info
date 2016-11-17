@@ -2,6 +2,11 @@
 	"modid": "richearth",
 	"name": "Rich Earth",
 	"description": "Substantially alters underground terrain generation. Inspired by Dwarf Fortress. In early Alpha.",
-	"version": "1.0.0",
-	"mcversion": "1.10.2",
-	"logoFile": "/assets/marketing/richearth.png"
+	"version": ${version},
+	"mcversion": ${mcversion},
+	"logoFile": "/main/resources/assets/img/richearth.png",
+	"url": "https://github.com/Spydrouge/richearth/",
+	"updateJSON": "minecraftforge.net/versions.json",
+	"authorList": ["GamingImperatrix"],
+	"credits": "With love to my husband."
+}]
