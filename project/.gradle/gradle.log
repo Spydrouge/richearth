@@ -1,0 +1,139 @@
+This mapping 'snapshot_20160518' was designed for MC 1.9.4! Use at your own peril.This mapping 'snapshot_20160518' was designed for MC 1.9.4! Use at your own peril.
+
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-c438b06        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 1081/1112   97%
+:makeStart
+:runClient
+2016-11-13 16:13:03,137 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2016-11-13 16:13:03,138 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[16:13:03] [main/INFO] [GradleStart]: Extra: []
+[16:13:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Gaming Imperatrix/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:13:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:13:03] [main/INFO] [FML]: Forge Mod Loader version 12.18.2.2099 for Minecraft 1.10.2 loading
+[16:13:03] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_111, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_111\jre
+[16:13:03] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:13:03] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[16:13:03] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[16:13:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:03] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[16:13:03] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:13:03] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+2016-11-13 16:13:04,261 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2016-11-13 16:13:04,274 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2016-11-13 16:13:04,275 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[16:13:04] [Client thread/INFO]: Setting user: Player256
+[16:13:06] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:13:07] [Client thread/INFO] [FML]: Could not load splash.properties, will create a default one
+[16:13:07] [Client thread/INFO] [STDOUT]: [net.minecraftforge.fml.client.SplashProgress:start:221]: ---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 11/13/16 4:13 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_111, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 877593872 bytes (836 MB) / 1057488896 bytes (1008 MB) up to 7621050368 bytes (7268 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 372.90' Renderer: 'GeForce GTX 970/PCIe/SSE2'
+[16:13:07] [Client thread/INFO] [FML]: MinecraftForge v12.18.2.2099 Initialized
+[16:13:07] [Client thread/INFO] [FML]: Replaced 232 ore recipes
+[16:13:07] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:13:07] [Client thread/INFO] [FML]: Searching G:\Documents\My Dragon\GIT\richearth\project\run\mods for mods
+[16:13:07] [Client thread/INFO] [FML]: Forge Mod Loader has identified 3 mods to load
+[16:13:08] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[16:13:08] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[16:13:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[16:13:08] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[16:13:08] [Client thread/INFO] [FML]: Found 423 ObjectHolder annotations
+[16:13:08] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[16:13:08] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[16:13:08] [Client thread/INFO] [FML]: Applying holder lookups
+[16:13:08] [Client thread/INFO] [FML]: Holder lookups applied
+[16:13:08] [Client thread/INFO] [FML]: Applying holder lookups
+[16:13:08] [Client thread/INFO] [FML]: Holder lookups applied
+[16:13:08] [Client thread/INFO] [FML]: Applying holder lookups
+[16:13:08] [Client thread/INFO] [FML]: Holder lookups applied
+[16:13:08] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[16:13:08] [Forge Version Check/INFO] [ForgeVersionCheck]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:13:08] [Client thread/INFO] [FML]: Applying holder lookups
+[16:13:08] [Client thread/INFO] [FML]: Holder lookups applied
+[16:13:08] [Client thread/INFO] [FML]: Injecting itemstacks
+[16:13:08] [Client thread/INFO] [FML]: Itemstack injection complete
+[16:13:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:13:09] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[16:13:09] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:13:09] [Thread-7/INFO]: OpenAL initialized.
+[16:13:09] [Sound Library Loader/INFO]: Sound engine started
+[16:13:10] [Client thread/INFO] [FML]: Max texture size: 16384
+[16:13:10] [Client thread/INFO]: Created: 16x16 textures-atlas
+[16:13:11] [Client thread/INFO] [FML]: Injecting itemstacks
+[16:13:11] [Client thread/INFO] [FML]: Itemstack injection complete
+[16:13:11] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 3 mods
+[16:13:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[16:13:12] [Client thread/INFO]: SoundSystem shutting down...
+[16:13:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:13:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:13:13] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[16:13:13] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:13:13] [Thread-9/INFO]: OpenAL initialized.
+[16:13:13] [Sound Library Loader/INFO]: Sound engine started
+[16:13:13] [Client thread/INFO] [FML]: Max texture size: 16384
+[16:13:13] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[16:13:18] [Client thread/INFO]: Stopping!
+[16:13:18] [Client thread/INFO]: SoundSystem shutting down...
+[16:13:18] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+
+BUILD SUCCESSFUL
+
+Total time: 42.117 secs

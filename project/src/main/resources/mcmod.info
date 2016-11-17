@@ -1,0 +1,7 @@
+[{
+	"modid": "richearth",
+	"name": "Rich Earth",
+	"description": "Substantially alters underground terrain generation. Inspired by Dwarf Fortress. In early Alpha.",
+	"version": "1.0.0",
+	"mcversion": "1.10.2",
+	"logoFile": "/assets/marketing/richearth.png"
