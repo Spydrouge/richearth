@@ -22,6 +22,12 @@ archivesBaseName = "richearth"
 //							MINECRAFT, JAVA, DEPENDENCIES, RESOURCES
 //-----------------------------------------------------------------
 
+sourceSets{
+main {
+        java { srcDirs = ["$projectDir/src/main/java"] }
+        resources { srcDirs = ["$projectDir/src/main/resources"] }
+    }
+}
 sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
 compileJava {
     sourceCompatibility = targetCompatibility = "1.6"
@@ -85,3 +91,30 @@ processResources
         exclude 'mcmod.info'
     }
 }
+
+String getVersionFromJava(File file)
+{
+	//we aren't reading java at this point so we have to just read in the file and look for the line...
+	String searchPrefix = public static final String MOD_VERSION = \"";
+	
+	//for each line
+	file.eachLine {
+		//nab the line 
+		String searcher -> 
+		searcher = searcher.trim();
+		
+		//check for the prefix
+		if(searcher.startsWith(searchPrefix)){
+		
+			//chop off the prefix and the quotation mark and colon from the end (aka -2)
+			searcher = searcher.substring(searchPrefix.length(), searcher.length() - 2);
+			
+			//and return that plz
+			return searcher;
+		}
+	} 
+	
+	//we failllledddd!
+	return "0";
+}
+	
