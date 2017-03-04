@@ -4,7 +4,7 @@
 	"description": "Substantially alters underground terrain generation. Inspired by Dwarf Fortress. In early Alpha.",
 	"version": "${version}",
 	"mcversion": "${mcversion}",
-	"logoFile": "/main/resources/assets/img/richearth.png",
+	"logoFile": "/assets/img/RichEarth1.png",
 	"url": "https://github.com/Spydrouge/richearth/",
 	"updateJSON": "minecraftforge.net/versions.json",
 	"authorList": ["GamingImperatrix"],
