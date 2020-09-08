@@ -1,3 +1,6 @@
+# Left For Bitbucket
+Hey! Me and the fam have largely left GitHub for Bitbucket, which allows for free private repositories. We're also working on something other than Minecraft these days, woops! Just letting you know: This project is on indefinite hiatus...!
+
 # RichEarth
 A Minecraft 1.10 Mod
 Mod Author #1: GamingImperatrix. Aliases: Spydrouge, Tuli Ashuliva, VampireKyn, GImperatrix
